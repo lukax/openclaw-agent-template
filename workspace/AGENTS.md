@@ -16,7 +16,7 @@ workspace/
 
 ## Workflow
 
-1. **New project?** Copy `projects/starter/` as your base, or create from scratch
+1. **Active project:** `projects/starter/` is the main project — work directly in it
 2. **Code** in `projects/` — each project gets its own directory
 3. **Push** to GitHub when ready for review
 4. **Preview** via Vercel preview deployments when available
