@@ -1,12 +1,29 @@
 {
   "version": 1,
-  "ports": [
+  "agent": {
+    "name": "Frontend Dev Agent",
+    "description": "An AI agent specialized in frontend development with Vite, React, and TypeScript. Ships clean, accessible UIs from a pre-configured scaffold.",
+    "vibe": "clean code, great UX, ships fast",
+    "emoji": "⚛️"
+  },
+  "template": {
+    "slug": "frontend-dev-agent",
+    "category": "general",
+    "tags": ["frontend", "react", "vite", "typescript"],
+    "partnerName": "Pinata"
+  },
+  "secrets": [
     {
-      "port": 5173,
-      "pathPrefix": "/app",
-      "public": true
+      "name": "ANTHROPIC_API_KEY",
+      "description": "Anthropic API key for Claude access",
+      "required": true
     }
   ],
-  "setup": "cd ~/clawd/workspace/projects/starter && npm install --include=dev",
-  "start": "cd ~/clawd/workspace/projects/starter && npx vite --host 0.0.0.0"
+  "routes": [
+    {
+      "port": 5173,
+      "path": "/app",
+      "protected": false
+    }
+  ]
 }
