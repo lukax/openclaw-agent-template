@@ -20,8 +20,8 @@
     }
   ],
   "scripts": {
-    "build": "cd clawd/workspace/projects/starter && npm install",
-    "start": "cd clawd/workspace/projects/starter && npx vite --host 0.0.0.0"
+    "build": "cd workspace/projects/starter && npm install",
+    "start": "cd workspace/projects/starter && npx vite --host 0.0.0.0"
   },
   "routes": [
     {
