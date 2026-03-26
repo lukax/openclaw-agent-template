@@ -20,7 +20,7 @@
     }
   ],
   "scripts": {
-    "build": "cd workspace/projects/starter && npm install",
+    "build": "cd workspace/projects/starter && npm install --include=dev",
     "start": "cd workspace/projects/starter && npx vite --host 0.0.0.0"
   },
   "routes": [
