@@ -23,6 +23,14 @@ workspace/
         index.css
 ```
 
+## Lifecycle Scripts
+
+The `manifest.json` defines lifecycle scripts that automate the dev environment:
+
+- **`scripts.build`** — Runs `npm install` after each `git push` to install dependencies
+- **`scripts.start`** — Runs `npx vite --host 0.0.0.0` on every agent boot to start the dev server
+- **`routes`** — Exposes port 5173 at `/app` so you can preview the app from your agent's URL
+
 ## What This Template Includes
 
 - **SOUL.md** — Frontend developer personality: writes clean React/TS, cares about UX and accessibility
