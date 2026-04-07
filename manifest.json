@@ -1,4 +1,5 @@
 {
+  "$schema": "https://agents.pinata.cloud/schemas/manifest.v1.json",
   "version": 1,
   "agent": {
     "name": "Frontend Dev",
@@ -18,6 +19,13 @@
       "description": "Anthropic API key for Claude access",
       "required": true
     }
+  ],
+  "skills": [
+     {
+       "cid": "alchemy-official",
+       "clawhub_slug": "alchemy-official",
+       "name": "Alchemy Official"
+     }
   ],
   "scripts": {
     "build": "cd workspace/projects/starter && npm install --include=dev",
