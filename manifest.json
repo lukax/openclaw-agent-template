@@ -11,8 +11,8 @@
     "slug": "frontend-dev-agent",
     "category": "general",
     "tags": ["frontend", "react", "vite", "typescript"],
-    "partnerName": "Pinata",
-    "partnerLogoUrl": "https://agents.pinata.cloud/logo.png"
+    "authorName": "Pinata",
+    "authorLogoUrl": "https://agents.pinata.cloud/logo.png"
   },
   "secrets": [
     {
