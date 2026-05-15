@@ -14,6 +14,7 @@
     "authorName": "Pinata",
     "authorLogoUrl": "https://agents.pinata.cloud/logo.png"
   },
+  "engine": "openclaw",
   "secrets": [
     {
       "name": "ANTHROPIC_API_KEY",
